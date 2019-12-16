@@ -1,0 +1,23 @@
+{
+    "version"           : "1.0.0",
+    "name"              : "VoelknerPayment",
+    "marketplaceName"   : {"de":"Voelkner","en":"Voelkner"},
+    "license"           : "MIT",
+    "pluginIcon"        : "icon_plugin_xs.png",
+    "price"             : 0.00,
+    "description"       : "Voelkner Payment dummy plugin for plentymarkets online stores",
+    "shortDescription"  : {"de": "Voelkner Payment","en": "Voelkner Payment"},
+    "categories"        : ["3519"],
+    "author"            : "Marcus Kreusch",
+    "authorIcon"        : "icon_author_xs.png",
+    "email"             : "info@kreusch-creative.de",
+    "phone"             : "",
+    "keywords"          : [],
+    "type"              : "payment",
+    "namespace"         : "VoelknerPayment",
+    "serviceProvider"   : "VoelknerPayment\\Providers\\VoelknerPaymentServiceProvider",
+    "javaScriptFiles"   : [],
+    "containers"        : [],
+    "dataProviders"     : [],
+    "dependencies"      : []
+}
