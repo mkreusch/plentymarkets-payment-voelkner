@@ -31,5 +31,14 @@ class VoelknerPaymentServiceProvider extends ServiceProvider
     {
         // Create the ID of the payment method if it doesn't exist yet
         $paymentHelper->createMopIfNotExists();
-   }
+    }
+    
+    
+    public function isBackendSearchable(){
+        return true;
+    }
+    
+    public function isBackendActive(){
+        return true;
+    }
 }
